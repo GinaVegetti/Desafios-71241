@@ -30,19 +30,12 @@ main {
     padding: 20px;
 }
 
-.juegos {
+.producto {
     border-radius: 4px;
     max-width: 880px;
     margin: 0 auto;
     background-color: #B8105A;
     padding: 20px;
-}
-
-.juegos h2 {
-    text-align: left;
-    color: white;
-    font-size: 25px;
-    margin-bottom: 20px;
 }
 
 .juego {
@@ -54,7 +47,8 @@ main {
     flex-direction: column;
 }
 
-.juego h3 {
+.juego h2 {
+    font-size: 20px;
     color: #9C0037;
     margin-top: 0;
     display: block;
@@ -72,6 +66,17 @@ main {
 .juego p {
     color: #333;
     line-height: 1.6;
+}
+
+.juego ul{
+    color: #333;
+    line-height: 1.6;
+    padding: 20px 0 10px 15px;
+}
+
+.stock p {
+    font-size: 15px;
+    padding: 10px 0;
 }
 
 .button-link {
