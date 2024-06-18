@@ -1,0 +1,112 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    color: rgba(233, 230, 36, 0.966);
+    text-align: center;
+    padding: 10px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url(../assets/img/background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+header h1 {
+    font-size: 50px;
+    font-variant: small-caps;
+}
+
+main {
+    padding: 10px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.juegos {
+    max-width: 1200px; 
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(233, 228, 228);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.juegos h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #444;
+}
+
+.juegos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.juego {
+    background-color: rgb(153, 153, 153);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.juego h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.juego img {
+    border-style: solid;
+    border-color: rgb(233, 228, 228);
+    border-width: 4px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+    border-radius: 10px;
+}
+
+.juego p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-style: solid;
+    border-color: rgb(233, 228, 228);
+    border-width: 2px;
+    background-color: rgba(233, 230, 36, 0.966);
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button-link:hover {
+    background-color: rgba(233, 230, 36, 0.966);
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
