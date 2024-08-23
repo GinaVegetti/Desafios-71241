@@ -10,7 +10,7 @@ document.getElementById("recordarBtn")?.addEventListener("click", function() {
 document.getElementById("cambiarColorBtn")?.addEventListener("click", function() {
     var formulario = document.getElementById("formulario");
     if (formulario) {
-        var colores = ['#ffdddd', '#ddffdd', '#ddddff', '#ffffdd', '#ddffff'];
+        var colores = ['#ffdddd', '#ddffdd', '#ddddff', '#ffffdd', '#ddffff', '#1F2023' ];
         var colorActual = formulario.style.backgroundColor;
         var nuevoColor = colores[Math.floor(Math.random() * colores.length)];
         while (nuevoColor === colorActual) {

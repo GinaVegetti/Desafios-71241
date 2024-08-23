@@ -42,7 +42,7 @@ fieldset {
     background-color: #D6E2DE;
     border: 1px solid #f2f2f2;
     padding: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
     border-radius: 5px;
     position: relative; 
     text-align: center; 
@@ -153,3 +153,10 @@ button:hover {
     color: #ffffff;
 }
 
+hr{
+    border-top: transparent;
+    border-right: transparent;
+    border-left: transparent;
+    border-bottom: 15px dotted #A3BEB6;
+    width: 44%;
+}
