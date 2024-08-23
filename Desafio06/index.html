@@ -5,14 +5,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Estilos principales -->
-    <link rel="stylesheet" href="./css/estilos.css" />
+    <!-- <link rel="stylesheet" href="./css/estilos.css" /> -->
     <!-- Estilos Retro -->
-    <!-- <link rel="stylesheet" href=""> -->
+    <!-- <link rel="stylesheet" href="./css/estilos-retro.css"> -->
     <!-- Estilos Futuro -->
-    <!-- <link rel="stylesheet" href=""> -->
+    <link rel="stylesheet" href="./css/estilos-futuro.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Poppins:wght@400;700&display=swap"
         rel="stylesheet" />
-    <title>Afiliación</title>
+    <title>Gina Vegetti - Afiliación</title>
 </head>
 
 <body>
@@ -20,7 +20,7 @@
         <h1>Vení al Gym! 💪</h1>
     </header>
 
-    <form>
+    <form id="formulario">
         <fieldset>
             <legend>📋 Datos Personales 👀</legend>
             <label for="nombre">Nombre:* </label>
@@ -111,8 +111,9 @@
         <p class="condiciones">*: campos obligatorios</p>
 
         <div class="boton">
+            <button type="button" id="recordarBtn">Recordar</button>
+            <button type="button" id="cambiarColorBtn">Cambiar Color</button>
             <button type="submit">Iniciar afiliación</button>
-
             <button type="reset">Restablecer</button>
         </div>
     </form>

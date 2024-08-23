@@ -1,52 +1,78 @@
-/* Colores Futuristas */
-#1a1a1a gris oscuro
-#0a84ff azul neón
-#00ff84 verde neón
-#f8f8f8 blanco futuro
-#282828 gris futuro
+:root {
+    --gris-oscuro: #3e4349;
+    --azul-neon: #506172;
+    --verde-neon: #00ff84;
+    --blanco-futuro: #f8f8f8;
+    --gris-futuro: #282828;
+}
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #1a1a1a;
-    color: #f8f8f8;
+    background-color: var(--gris-oscuro);
+    color: var(--blanco-futuro);
+    margin: 0;
+    padding: 0;
 }
 
 header {
-    background-color: #0a84ff;
-    color: #00ff84;
-    padding: 20px;
+    background-image: url(../assets/img/esquema-futurista-moderno.avif);
+    color: var(--blanco-futuro);
+    padding: 30px;
     text-align: center;
     text-transform: uppercase;
+    border-bottom: 5px solid var(--verde-neon); 
 }
 
 main {
     padding: 20px;
+    background-color: var(--gris-futuro);
+    border-radius: 15px; 
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5); 
 }
 
 h1, h2 {
-    text-shadow: 2px 2px 10px #00ff84;
-    border-bottom: 2px solid #00ff84;
+    color: var(--blanco-futuro);
+    text-shadow: 2px 2px 10px var(--verde-neon);
+    border-bottom: 3px solid var(--verde-neon); 
     padding-bottom: 10px;
+    margin-bottom: 20px; 
 }
 
 form {
-    background-color: #282828;
+    background-color: var(--gris-futuro);
     padding: 20px;
-    border-radius: 15px;
-    box-shadow: 0 0 15px #0a84ff;
+    border-radius: 20px; 
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.7); 
     max-width: 400px;
-    margin: auto;
+    margin: 20px auto;
+    border: 2px solid var(--verde-neon); 
 }
 
-input {
-    border: 2px solid #00ff84;
-    background-color: #1a1a1a;
-    color: #f8f8f8;
+input, textarea {
+    border: 2px solid var(--verde-neon);
+    background-color: var(--gris-oscuro);
+    color: var(--blanco-futuro);
+    padding: 10px;
+    border-radius: 10px; 
+    margin-bottom: 25px; 
 }
 
 button {
-    background-color: #00ff84;
-    color: #1a1a1a;
+    background-color: var(--verde-neon);
+    color: var(--gris-oscuro);
     border: none;
-    box-shadow: 0 0 10px #00ff84;
+    padding: 10px 20px;
+    margin: 30px;
+    border-radius: 10px; 
+    box-shadow: 0 0 20px rgba(0, 255, 132, 0.8); 
+    cursor: pointer; 
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; 
 }
+
+button:hover {
+    background-color: var(--azul-neon); 
+    box-shadow: 0 0 30px rgba(0, 255, 132, 1); 
+}
+
+
+
