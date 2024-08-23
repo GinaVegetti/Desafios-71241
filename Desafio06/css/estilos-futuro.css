@@ -1,0 +1,52 @@
+/* Colores Futuristas */
+#1a1a1a gris oscuro
+#0a84ff azul neón
+#00ff84 verde neón
+#f8f8f8 blanco futuro
+#282828 gris futuro
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a;
+    color: #f8f8f8;
+}
+
+header {
+    background-color: #0a84ff;
+    color: #00ff84;
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+main {
+    padding: 20px;
+}
+
+h1, h2 {
+    text-shadow: 2px 2px 10px #00ff84;
+    border-bottom: 2px solid #00ff84;
+    padding-bottom: 10px;
+}
+
+form {
+    background-color: #282828;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px #0a84ff;
+    max-width: 400px;
+    margin: auto;
+}
+
+input {
+    border: 2px solid #00ff84;
+    background-color: #1a1a1a;
+    color: #f8f8f8;
+}
+
+button {
+    background-color: #00ff84;
+    color: #1a1a1a;
+    border: none;
+    box-shadow: 0 0 10px #00ff84;
+}

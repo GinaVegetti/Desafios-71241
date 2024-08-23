@@ -1,0 +1,50 @@
+/* Colores Retro */
+#252525 gris oscuro
+#f8f3e7 beige
+#f04c4c rojo retro
+#79b473 verde retro
+#f2d398 mostaza retro
+
+body {
+    font-family: 'Courier New', monospace;
+    background-color: #f8f3e7;
+}
+
+header {
+    background-color: #f04c4c;
+    color: #252525;
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+main {
+    padding: 20px;
+    background-color: #f2d398;
+    color: #252525;
+}
+
+h1, h2 {
+    color: #252525;
+    text-shadow: 1px 1px 2px #f04c4c;
+}
+
+form {
+    background-color: #79b473;
+    padding: 20px;
+    border-radius: 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    max-width: 400px;
+    margin: auto;
+}
+
+input {
+    border: 2px solid #252525;
+    background-color: #f8f3e7;
+}
+
+button {
+    background-color: #252525;
+    color: #f8f3e7;
+    border: 2px solid #f04c4c;
+}

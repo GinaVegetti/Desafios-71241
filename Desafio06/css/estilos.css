@@ -1,0 +1,155 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1F2023;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    flex-direction: column; 
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 20px 60px; 
+    border-top: 16px solid #4D6D63; 
+    border-bottom: 16px solid #4D6D63; 
+    clip-path: polygon(0% 0%, 10% 50%, 0% 100%, 100% 100%, 90% 50%, 100% 0%); 
+    background-color: #1F2023;
+    box-sizing: border-box; 
+    width: 750px;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 55px; 
+    font-weight: bold;
+    margin: 0; 
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+form {
+    background-color: #1F2023;
+    padding: 20px;
+    width: 750px;
+    margin: 0 auto; 
+}
+
+fieldset {
+    background-color: #D6E2DE;
+    border: 1px solid #f2f2f2;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    position: relative; 
+    text-align: center; 
+}
+
+legend {
+    background-color: #4D6D63;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: start; 
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #000000; 
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+    display: block;
+    width: 90%; 
+    max-width: 400px;
+    margin: 10px auto; 
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    transition: background-color 0.3s ease, border-color 0.3s ease; 
+}
+
+
+input[type="text"]:hover,
+input[type="email"]:hover,
+textarea:hover,
+select:hover {
+    background-color: #47655C; 
+    border-color: #a0a0a0;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.boton {
+    display: flex;
+    justify-content: space-around; 
+    gap: 10px; 
+}
+
+button {
+    margin: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2B3D37;
+    color: #94BCAC;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1d4042;
+}
+
+
+.actividades {
+    background-color: #A5BFB8; 
+    padding: 10px;
+    border-radius: 5px; 
+}
+
+.actividades p {
+    color: rgb(34, 33, 33); 
+    font-size: 15px; 
+    margin: 10px 0; 
+    text-align: start; 
+}
+
+.actividades .sexo-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.sexo-group input[type="radio"] {
+    margin-right: 5px; 
+}
+
+.sexo-group label {
+    color: #000000; 
+    display: inline; 
+    margin: 0; 
+}
+
+
+.actividades{
+    background-color: #A5BFB8; 
+}
+
+.condiciones{
+    color: #ffffff;
+}
+
