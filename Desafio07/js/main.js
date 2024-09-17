@@ -1,8 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
-    // Seleccionamos el botón ya existente en el HTML
     const buttonPresentar = document.getElementById('botonPresentar');
 
-    // Aplicamos los estilos al botón existente
     buttonPresentar.style.cssText = `
         background-color: #fff;
         color: #000;
@@ -15,7 +13,6 @@ document.addEventListener("DOMContentLoaded", function () {
         transition: transform 0.2s ease-in-out;
     `;
 
-    // Eventos para animar el botón
     buttonPresentar.addEventListener('mouseover', function () {
         this.style.transform = 'scale(1.1)';
     });
@@ -29,7 +26,6 @@ document.addEventListener("DOMContentLoaded", function () {
         this.style.transform = 'scale(1)';
     });
 
-    // Evento de click para el botón "Presentar"
     buttonPresentar.addEventListener('click', function () {
         let personaje = prompt("¿Quién se presenta hoy? (Mario, Luigi, Bowser, Peach, Yoshi, Toad, Toadette, Daisy)");
 
@@ -60,7 +56,6 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 
-    // Evento de click para los cuadros de personajes
     document.querySelectorAll('#cajas > div').forEach(div => {
         div.addEventListener('click', function () {
             const estaVisible = this.getAttribute('title') === 'Presentado';

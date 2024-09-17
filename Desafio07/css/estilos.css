@@ -27,7 +27,6 @@ h1 > strong {
     font-style: italic;
 }
 
-/* Estilos del botón "Presentar" */
 #botonPresentar {
     background-color: #fff;
     color: #000;
@@ -42,19 +41,18 @@ h1 > strong {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
-/* Efecto hover: cuando el cursor pasa por encima */
 #botonPresentar:hover {
     transform: scale(1.1);
     background-color: #eaeaea;
 }
 
-/* Efecto de presionado */
+
 #botonPresentar:active {
     transform: scale(0.95);
     background-color: #ccc;
 }
 
-/* Estilos de las cajas de personajes */
+
 #cajas {
     width: 80%;
     margin: 20px auto 0;
